@@ -379,34 +379,29 @@ Keep it moving: 2 minutes maximum.`,mount:e=>Vo(e)},Jo=[Wo,Go,Ko],Yo=`Where you�
 
 **Step 3 (click): zoom to the department.** "Level three: Physics, Astronomy and Mathematics. **86%** of our research rated world-leading or internationally excellent." (REF 2021; it went in under Physics, and the maths group was part of it.) Eleven degrees; our own observatory at Bayfordbury; Athena Swan Silver, a national award for gender equality. If asked: Computer Science's REF 2021 profile is 90%; astrophysicists have a ~3,000-core computing cluster.
 
-**Step 4 (click): zoom to maths.** "And level four: maths, upstairs on the 3rd floor. In the middle there's a space: we'll come back to it at the end. Let me introduce the family." → next slide.`}],ss=[[`Charles`,`Strickland-Constable`],[`Luigi`,`Alfonsi`],[`Salah`,`Beddiaf`],[`Leron`,`Borsten`],[`Severin`,`Bunk`],[`John`,`Evans`],[`Catarina`,`Carvalho`],[`Livia`,`Ferro`],[`Stephen`,`Kane`],[`Hyungrok`,`Kim`],[`Tomasz`,`Łukowski`],[`Yann`,`Peresse`],[`Vidas`,`Regelskis`],[`Carrie`,`Ricketts`],[`Ingmar`,`Saberi`],[`Kuldeep`,`Singh`],[`Charles`,`Young`]],cs=`Regelskis`,ls=3,us=8,ds=[[`Hidden symmetries`,`quantum groups · integrable systems`],[`Geometry of particle collisions`,`scattering amplitudes`],[`Strings and the shape of space`,`strings, supergravity and geometry`],[`How things combine`,`semigroups · general algebra`],[`Algebra meets topology`,`topological algebra`],[`Which puzzles computers solve fast`,`constraint satisfaction`]],fs=1150,ps=820,ms={x:575,y:420},hs=248,gs=268,_s=[[1,0],[.98,.03],[.9,.02],[1.04,0],[.95,-.02],[1.06,0],[.94,.02],[1.04,-.02],[1,0],[1,0],[1.04,.02],[.94,-.02],[1.06,0],[.95,.02],[1.04,0],[.9,-.02],[.98,-.03]],vs={x:250,y:330},ys=.62,bs={x:935,y:175},xs={x:935,y:600},Ss={x:700,y:395},Q=e=>Math.round(e*10)/10,Cs=ss.map(([e,t],n)=>{let[r,i]=_s[n%_s.length],a=-Math.PI/2+n*2*Math.PI/ss.length+i,o=Math.cos(a),s=Math.sin(a),c=ms.x+hs*r*o,l=ms.y+gs*r*s,u=n===0,d=s>.95,f=u?c:d?c+(o>=0?-8:8):c+(o>=0?40:-40),p=u?`middle`:o>=0?`start`:`end`;return{first:e,last:t,x:c,y:l,lx:f,ly:u?l-38:d?l+56:l+12,anchor:p}}),ws=(e,t)=>({x:vs.x+ys*(e-ms.x),y:vs.y+ys*(t-ms.y)}),Ts=e=>{let t=Math.atan2(e.y-vs.y,e.x-vs.x);return{x:vs.x+169.76*Math.cos(t),y:vs.y+182.16*Math.sin(t)}},Es=(e,t,n)=>({x:e.x+n*(t.x-e.x),y:e.y+n*(t.y-e.y)});function Ds(e,t,n,r){let i=``;for(let a=0;a<t;a++){let o=n*Math.sqrt((a+.5)/t),s=a*2.39996;i+=`<circle cx="${Q(e.x+o*Math.cos(s))}" cy="${Q(e.y+o*Math.sin(s))}" r="11" class="${r}"/>`}return i}function Os(){let e=20261017,t=()=>{e=e+1831565813|0;let t=Math.imul(e^e>>>15,1|e);return t=t+Math.imul(t^t>>>7,61|t)^t,((t^t>>>14)>>>0)/4294967296},n=()=>(t()+t()+t()-1.5)/1.5,r=gs/hs,i=(e,t)=>{let n=26+e*360,i=-.6+t*Math.PI+e*2.7*Math.PI;return[ms.x+n*Math.cos(i),ms.y+n*r*Math.sin(i)]},a=[`#ffffff`,`#ffffff`,`#ffffff`,`#d9c2f0`,`#d9c2f0`,`#9fe6ec`],o=``;for(let e=0;e<2;e++)for(let r=0;r<190;r++){let s=r/190,[c,l]=i(s+n()*.01,e),u=10+34*s;o+=`<circle cx="${Q(c+n()*u)}" cy="${Q(l+n()*u)}" r="${Q(.7+t()*1.9)}" fill="${a[t()*a.length|0]}" opacity="${(.25+t()*.6).toFixed(2)}"/>`}for(let e=0;e<140;e++){let e=40+Math.sqrt(t())*360,n=t()*2*Math.PI;o+=`<circle cx="${Q(ms.x+e*Math.cos(n))}" cy="${Q(ms.y+e*r*Math.sin(n))}" r="${Q(.5+t()*1.1)}" fill="#ffffff" opacity="${(.15+t()*.35).toFixed(2)}"/>`}let s=e=>`M`+Array.from({length:41},(t,n)=>i(n/40,e)).map(([e,t])=>`${Q(e)},${Q(t)}`).join(` L`);return`<g class="fn-gal" aria-hidden="true">
-      <path class="fn-arm" d="${s(0)}"/><path class="fn-arm" d="${s(1)}"/>
-      <g class="fn-dust">${o}</g>
-      <circle class="fn-core-halo" cx="${ms.x}" cy="${ms.y}" r="70"/>
-      <circle class="fn-core" cx="${ms.x}" cy="${ms.y}" r="16"/>
-    </g>`}function ks(){let e=Cs.map(e=>{let t=e.last===cs;return`<g class="fn-node${t?` fn-me`:``}">
-        ${t?`<circle cx="${Q(e.x)}" cy="${Q(e.y)}" r="30" class="fn-me-ring"/>`:``}
+**Step 4 (click): zoom to maths.** "And level four: maths, upstairs on the 3rd floor. In the middle there's a space: we'll come back to it at the end. Let me introduce the family." → next slide.`}],ss=[{first:`Charles`,last:`Strickland-Constable`,pic:`strickland-constable`},{first:`Luigi`,last:`Alfonsi`,pic:`alfonsi`},{first:`Salah`,last:`Beddiaf`},{first:`Leron`,last:`Borsten`},{first:`Severin`,last:`Bunk`,pic:`bunk`},{first:`John`,last:`Evans`},{first:`Catarina`,last:`Carvalho`,pic:`carvalho`},{first:`Livia`,last:`Ferro`,pic:`ferro`},{first:`Stephen`,last:`Kane`,pic:`kane`},{first:`Hyungrok`,last:`Kim`},{first:`Tomasz`,last:`Łukowski`},{first:`Yann`,last:`Peresse`,pic:`peresse`},{first:`Vidas`,last:`Regelskis`},{first:`Carrie`,last:`Ricketts`,pic:`ricketts`},{first:`Ingmar`,last:`Saberi`},{first:`Kuldeep`,last:`Singh`,pic:`singh`},{first:`Charles`,last:`Young`,pic:`young`}],cs=`A short description is on its way.`,ls=`Regelskis`,us=3,ds=8,fs=[[`Hidden symmetries`,`quantum groups · integrable systems`],[`Geometry of particle collisions`,`scattering amplitudes`],[`Strings and the shape of space`,`strings, supergravity and geometry`],[`How things combine`,`semigroups · general algebra`],[`Algebra meets topology`,`topological algebra`],[`Which puzzles computers solve fast`,`constraint satisfaction`]],ps=1150,ms=820,hs={x:575,y:420},gs=[[575,150],[745,205],[845,275],[790,360],[880,440],[830,525],[770,605],[720,690],[600,762],[470,735],[330,660],[405,585],[265,500],[345,420],[275,335],[385,260],[470,185]],_s={x:250,y:330},vs=.62,ys={x:935,y:175},bs={x:935,y:600},xs={x:700,y:395},Q=e=>Math.round(e*10)/10,Ss=ss.map(({first:e,last:t},n)=>{let[r,i]=gs[n],a=n===0,o=r>=hs.x,s=a?r:r+(o?40:-40),c=a?`middle`:o?`start`:`end`;return{first:e,last:t,x:r,y:i,lx:s,ly:a?i-38:i+12,anchor:c}}),Cs=(e,t)=>({x:_s.x+vs*(e-hs.x),y:_s.y+vs*(t-hs.y)}),ws=e=>{let t=Math.atan2(e.y-_s.y,e.x-_s.x);return{x:_s.x+208.2*Math.cos(t),y:_s.y+205.72*Math.sin(t)}},Ts=(e,t,n)=>({x:e.x+n*(t.x-e.x),y:e.y+n*(t.y-e.y)});function Es(e,t,n,r){let i=``;for(let a=0;a<t;a++){let o=n*Math.sqrt((a+.5)/t),s=a*2.39996;i+=`<circle cx="${Q(e.x+o*Math.cos(s))}" cy="${Q(e.y+o*Math.sin(s))}" r="11" class="${r}"/>`}return i}function Ds(){let e=Ss.map((e,t)=>{let n=e.last===ls;return`<g class="fn-node${n?` fn-me`:``}" data-k="${t}">
+        <circle cx="${Q(e.x)}" cy="${Q(e.y)}" r="42" class="fn-hit"/>
+        ${n?`<circle cx="${Q(e.x)}" cy="${Q(e.y)}" r="30" class="fn-me-ring"/>`:``}
         <circle cx="${Q(e.x)}" cy="${Q(e.y)}" r="17" class="fn-staff"/>
         <text x="${Q(e.lx)}" y="${Q(e.ly)}" text-anchor="${e.anchor}" class="fn-name">${e.first} ${e.last}</text>
-      </g>`}).join(``),t=Array.from({length:ls},(e,t)=>{let n=-Math.PI/2+t*2*Math.PI/ls+.4;return`<circle cx="${Q(ms.x+55*Math.cos(n))}" cy="${Q(ms.y+70*Math.sin(n))}" r="13" class="fn-pd"/>`}).join(``)+Array.from({length:us},(e,t)=>{let n=-Math.PI/2+t*2*Math.PI/us;return`<circle cx="${Q(ms.x+130*Math.cos(n))}" cy="${Q(ms.y+165*Math.sin(n))}" r="10" class="fn-phd"/>`}).join(``),n=Cs.map(e=>{let t=e.x-ms.x,n=e.y-ms.y,r=Math.cos(.55),i=Math.sin(.55),a=ms.x+.5*(t*r-n*i),o=ms.y+.5*(t*i+n*r);return`<path d="M${ms.x},${ms.y} Q${Q(a)},${Q(o)} ${Q(e.x)},${Q(e.y)}"/>`}).join(``),r=Ts(bs),i=Ts(xs),a=Es(r,bs,.55),o=Es(i,xs,.55),s=Ts(Ss),c=vs.x,l=Array.from({length:21},(e,t)=>20+t*23).map(e=>`<circle cx="${e}" cy="752" r="7.5" class="fn-yr"/>`).join(``),u=ws(ms.x,ms.y+gs);return`<svg class="fn-svg" viewBox="0 0 ${fs} ${ps}" role="img" aria-label="The maths family: 17 academic staff, 3 postdoctoral researchers and 8 PhD students; with astrophysics and AI and robotics researchers as an extended family, and you">
+      </g>`}).join(``),t=Array.from({length:us},(e,t)=>{let n=-Math.PI/2+t*2*Math.PI/us+.4;return`<circle cx="${Q(hs.x+55*Math.cos(n))}" cy="${Q(hs.y+70*Math.sin(n))}" r="13" class="fn-pd"/>`}).join(``)+Array.from({length:ds},(e,t)=>{let n=-Math.PI/2+t*2*Math.PI/ds;return`<circle cx="${Q(hs.x+130*Math.cos(n))}" cy="${Q(hs.y+165*Math.sin(n))}" r="10" class="fn-phd"/>`}).join(``),n=Ss.map(e=>`<line x1="${hs.x}" y1="${hs.y}" x2="${Q(e.x)}" y2="${Q(e.y)}"/>`).join(``),r=ws(ys),i=ws(bs),a=Ts(r,ys,.55),o=Ts(i,bs,.55),s=ws(xs),c=_s.x,l=Array.from({length:21},(e,t)=>20+t*23).map(e=>`<circle cx="${e}" cy="752" r="7.5" class="fn-yr"/>`).join(``),u=Cs(hs.x,Math.max(...gs.map(e=>e[1])));return`<svg class="fn-svg" viewBox="0 0 ${ps} ${ms}" role="img" aria-label="The maths family: 17 academic staff, 3 postdoctoral researchers and 8 PhD students; with astrophysics and AI and robotics researchers as an extended family, and you">
     <g class="fn-x">
-      <line x1="${Q(r.x)}" y1="${Q(r.y)}" x2="${bs.x}" y2="${bs.y}" class="fn-edge ds"/>
-      <line x1="${Q(i.x)}" y1="${Q(i.y)}" x2="${xs.x}" y2="${xs.y}" class="fn-edge cs"/>
-      <line x1="${Ss.x}" y1="${Ss.y}" x2="${bs.x}" y2="${bs.y}" class="fn-edge thin"/>
-      <line x1="${Ss.x}" y1="${Ss.y}" x2="${xs.x}" y2="${xs.y}" class="fn-edge thin"/>
-      <line x1="${Q(s.x)}" y1="${Q(s.y)}" x2="${Ss.x}" y2="${Ss.y}" class="fn-edge thin"/>
-      ${Ds(bs,12,78,`fn-car`)}
-      ${Ds(xs,12,78,`fn-air`)}
-      <text x="${bs.x}" y="${bs.y-100}" text-anchor="middle" class="fn-cl">◆ Astrophysics</text>
-      <text x="${xs.x}" y="${xs.y+124}" text-anchor="middle" class="fn-cl">&lt;/&gt; AI and Robotics</text>
+      <line x1="${Q(r.x)}" y1="${Q(r.y)}" x2="${ys.x}" y2="${ys.y}" class="fn-edge ds"/>
+      <line x1="${Q(i.x)}" y1="${Q(i.y)}" x2="${bs.x}" y2="${bs.y}" class="fn-edge cs"/>
+      <line x1="${xs.x}" y1="${xs.y}" x2="${ys.x}" y2="${ys.y}" class="fn-edge thin"/>
+      <line x1="${xs.x}" y1="${xs.y}" x2="${bs.x}" y2="${bs.y}" class="fn-edge thin"/>
+      <line x1="${Q(s.x)}" y1="${Q(s.y)}" x2="${xs.x}" y2="${xs.y}" class="fn-edge thin"/>
+      ${Es(ys,12,78,`fn-car`)}
+      ${Es(bs,12,78,`fn-air`)}
+      <text x="${ys.x}" y="${ys.y-100}" text-anchor="middle" class="fn-cl">◆ Astrophysics</text>
+      <text x="${bs.x}" y="${bs.y+124}" text-anchor="middle" class="fn-cl">&lt;/&gt; AI and Robotics</text>
       <g class="fn-pill ds"><rect x="${Q(a.x-128)}" y="${Q(a.y-25)}" width="256" height="50" rx="25"/><text x="${Q(a.x)}" y="${Q(a.y+11)}" text-anchor="middle">Data Science</text></g>
       <g class="fn-pill cs"><rect x="${Q(o.x-140)}" y="${Q(o.y-25)}" width="280" height="50" rx="25"/><text x="${Q(o.x)}" y="${Q(o.y+11)}" text-anchor="middle">Maths with CS</text></g>
-      <circle cx="${Ss.x}" cy="${Ss.y}" r="22" class="fn-codir"/>
-      <text x="${Ss.x+36}" y="${Ss.y+11}" class="fn-cl sm">CoDIR</text>
-      <text x="${vs.x}" y="${vs.y-gs*ys-40}" text-anchor="middle" class="fn-cl">∑ The maths family</text>
+      <circle cx="${xs.x}" cy="${xs.y}" r="22" class="fn-codir"/>
+      <text x="${xs.x+36}" y="${xs.y+11}" class="fn-cl sm">CoDIR</text>
+      <text x="${_s.x}" y="${Q(Cs(hs.x,gs[0][1]).y-40)}" text-anchor="middle" class="fn-cl">∑ The maths family</text>
     </g>
     <g class="fn-fam">
-      ${Os()}
       <g class="fn-spokes">${n}</g>
       ${t}
       ${e}
@@ -419,7 +414,7 @@ Keep it moving: 2 minutes maximum.`,mount:e=>Vo(e)},Jo=[Wo,Go,Ko],Yo=`Where you�
       <circle cx="${c}" cy="752" r="22" class="fn-youdot"/>
       <text x="${c+34}" y="726" class="fn-cl">you</text>
     </g>
-  </svg>`}var As=e=>{let t=t=>e?``:`data-step="${t}"${t<3?` data-until="${t+1}"`:``}`;return`
+  </svg>`}var Os=e=>{let t=t=>e?``:`data-step="${t}"${t<3?` data-until="${t+1}"`:``}`;return`
     <section class="fn-p" ${e?``:`data-until="1"`}>
       <h2 class="h2">The family</h2>
       <div class="fn-counts">
@@ -432,7 +427,7 @@ Keep it moving: 2 minutes maximum.`,mount:e=>Vo(e)},Jo=[Wo,Go,Ko],Yo=`Where you�
     </section>
     <section class="fn-p" ${t(1)}>
       <h2 class="h3">What they work on</h2>
-      <ul class="fn-fields">${ds.map(([e,t])=>`<li><b>${e}</b><span>${t}</span></li>`).join(``)}</ul>
+      <ul class="fn-fields">${fs.map(([e,t])=>`<li><b>${e}</b><span>${t}</span></li>`).join(``)}</ul>
       <p class="small fn-sem">Seminar most weeks: <b>12 talks, 11 universities</b>, October–January.</p>
     </section>
     <section class="fn-p" ${t(2)}>
@@ -446,23 +441,36 @@ Keep it moving: 2 minutes maximum.`,mount:e=>Vo(e)},Jo=[Wo,Go,Ko],Yo=`Where you�
       <p class="fn-br"><b>From Year 1:</b> a personal tutor and small-group tutorials.</p>
       <p class="fn-br"><b>Final year:</b> a member of staff supervises your own project.</p>
       <p class="small muted">Lecturers you can knock on the door of.</p>
-    </section>`},js=`
+    </section>`},ks=e=>`<svg viewBox="0 0 600 600" aria-hidden="true">
+  <path class="fn-sil-b" d="M95 600 C100 455 195 405 300 405 C405 405 500 455 505 600 Z"/>
+  <path class="fn-sil-n" d="M255 330 L345 330 L352 410 C320 432 280 432 248 410 Z"/>
+  <ellipse class="fn-sil-h" cx="300" cy="235" rx="105" ry="128"/>
+  <text x="300" y="530" text-anchor="middle">${e.first[0]}${e.last[0]}</text>
+</svg>`,As=()=>ss.map((e,t)=>`
+    <article class="fn-card${e.last===ls?` fn-card-me`:``}" data-k="${t}" aria-hidden="true">
+      <div class="fn-pic">${e.pic?`<img src="${vo(`staff/${e.pic}.webp`)}" alt="" loading="lazy" decoding="async">`:ks(e)}</div>
+      <h2 class="h3">${e.first} ${e.last}</h2>
+      <p class="fn-blurb${e.blurb?``:` tbc`}">${e.blurb??cs}</p>
+    </article>`).join(``);if(typeof document<`u`&&!document.getElementById(`fn-card-css`)){let e=document.createElement(`style`);e.id=`fn-card-css`,e.textContent=ss.map((e,t)=>`.sc.present:is([data-step='0'], [data-step='1']) .fn:has(.fn-node[data-k="${t}"]:hover) .fn-card[data-k="${t}"]`).join(`,
+`)+` { opacity: 1; visibility: visible; transform: none; transition-delay: 0s; }`,document.head.appendChild(e)}var js=`
   <div class="fn-roster" data-explore-only>
-    <p><b>Academic staff:</b> ${[...ss].sort((e,t)=>e[1].localeCompare(t[1])).map(([e,t])=>`${e} ${t}`).join(` · `)}</p>
-    <p><b>Plus</b> ${ls} postdoctoral researchers and ${us} PhD students.</p>
+    <p><b>Academic staff:</b> ${[...ss].sort((e,t)=>e.last.localeCompare(t.last)).map(e=>`${e.first} ${e.last}`).join(` · `)}</p>
+    <p><b>Plus</b> ${us} postdoctoral researchers and ${ds} PhD students.</p>
   </div>`,Ms={id:`family-net`,chapter:`The family`,title:`The family: who you would learn with`,minutes:2.5,steps:4,theme:`dark`,divider:!0,html:`
     ${To(3)}
     <div class="fn grow">
-      <div class="fn-net">${ks()}</div>
-      <div class="fn-panels">${As(!1)}</div>
+      <div class="fn-net">${Ds()}</div>
+      <div class="fn-panels">${Os(!1)}${As()}</div>
     </div>`,explore:`
     ${To(3)}
     <div class="fn fn-ex">
-      <div class="fn-net">${ks()}</div>
-      <div class="fn-panels">${As(!0)}</div>
+      <div class="fn-net">${Ds()}</div>
+      <div class="fn-panels">${Os(!0)}</div>
     </div>
     ${js}`,caption:`Maths at Herts has **17 academic staff**, and our **Research Centre for Mathematics and Theoretical Physics** has 3 postdoctoral researchers and 8 PhD students (October 2026); the research centre is on the 3rd floor of the Spectra building. Their research ranges from hidden symmetries of quantum systems and the geometry of particle collisions to semigroups and which puzzles computers can solve quickly, and a research seminar brings visitors from other universities most weeks. **Data Science** students are also taught by researchers from the **Centre for Astrophysics Research**, and **Maths with Computer Science** students also learn from researchers in AI and robotics. The **Centre of Data Innovation Research (CoDIR)** brings astronomy, computing and mathematics together. Every student has a personal tutor and small-group tutorials from Year 1, and a member of staff supervises the final-year project. This summer the group also ran *Quantum in Pictures*, a week in which about 45 students aged 16–18 learned quantum theory through diagrams and finished by working through quantum teleportation (reported in *Physics World*, July 2026).`,notes:`
 **State 0: the people.** "This is the maths family: seventeen lecturers and researchers, three postdocs, eight PhD students. The research centre is upstairs, on the 3rd floor of this building. That's me." Point to your node. **No** claims about who teaches what.
+
+**Hover (states 0–1):** move the mouse onto any name and the right-hand panel becomes that person's card (cartoon + short description); move off and the panel comes back.
 
 **State 1 (click): what they work on.** Pick **one** to say aloud (your own: hidden symmetries) and wave at the rest. "And most weeks a researcher from another university visits to give a seminar: Oxford, Cambridge, UCL, Edinburgh, Amsterdam between now and January."
 
@@ -1314,4 +1322,4 @@ If time is short: skip straight to step 3 after one number.`,controls:[{label:`2
         <p>Facts are taken from herts.ac.uk and the 2026 programme specifications (checked October 2026); the course pages are the authoritative source.
           Camera and microphone demos run entirely in your browser; nothing is uploaded or stored by this page.</p>
       </div>
-    </footer>`;let r=e.querySelector(`.x-main`),i=new Map;for(let e of t){if(e.explore===!1)continue;let t=document.createElement(`article`);t.className=`xs xs-${e.theme}${e.divider?` xs-divider`:``}`,t.id=e.id;let n=document.createElement(`div`);n.className=`frame`;let a=Gu(e,`explore`);if(Ku(a,e.steps-1),n.appendChild(a),t.appendChild(n),e.caption){let n=document.createElement(`div`);n.className=`x-caption`,n.innerHTML=Ju(e.caption),t.appendChild(n)}r.appendChild(t),e.mount&&i.set(a,{scene:e,inst:null})}let a=new IntersectionObserver(e=>{for(let t of e){let e=i.get(t.target);if(e){if(t.isIntersecting&&!e.inst)try{e.inst=qu(e.scene,t.target,`explore`),e.inst.setStep?.(e.scene.steps-1)}catch(e){console.error(e)}else if(!t.isIntersecting&&e.inst){try{e.inst.dispose()}catch(e){console.error(e)}e.inst=null}}}},{rootMargin:`300px 0px`});i.forEach((e,t)=>a.observe(t)),document.addEventListener(`visibilitychange`,()=>{i.forEach(e=>{document.hidden?e.inst?.pause?.():e.inst?.resume?.()})});let o=window.matchMedia(`(prefers-reduced-motion: reduce)`).matches?`auto`:`smooth`,s=e.querySelector(`.x-nav select`);s.addEventListener(`change`,()=>document.getElementById(s.value)?.scrollIntoView({behavior:o}));let c=n.map(e=>document.getElementById(e.id)).filter(Boolean),l=new IntersectionObserver(e=>{for(let t of e)t.isIntersecting&&(s.value=t.target.id)},{rootMargin:`-45% 0px -50% 0px`});c.forEach(e=>l.observe(e))}var dd=`2026-10-07 00:48`,fd=document.getElementById(`app`),pd=location.hash.replace(/^#\/?/,``);pd.startsWith(`present`)?od(fd,Uu,dd):pd.startsWith(`speaker`)?cd(fd,Uu,dd):ud(fd,Uu),window.addEventListener(`hashchange`,()=>{let e=location.hash.replace(/^#\/?/,``),t=e=>e.startsWith(`present`)?`p`:e.startsWith(`speaker`)?`s`:`e`;t(e)!==t(pd)&&location.reload()});
+    </footer>`;let r=e.querySelector(`.x-main`),i=new Map;for(let e of t){if(e.explore===!1)continue;let t=document.createElement(`article`);t.className=`xs xs-${e.theme}${e.divider?` xs-divider`:``}`,t.id=e.id;let n=document.createElement(`div`);n.className=`frame`;let a=Gu(e,`explore`);if(Ku(a,e.steps-1),n.appendChild(a),t.appendChild(n),e.caption){let n=document.createElement(`div`);n.className=`x-caption`,n.innerHTML=Ju(e.caption),t.appendChild(n)}r.appendChild(t),e.mount&&i.set(a,{scene:e,inst:null})}let a=new IntersectionObserver(e=>{for(let t of e){let e=i.get(t.target);if(e){if(t.isIntersecting&&!e.inst)try{e.inst=qu(e.scene,t.target,`explore`),e.inst.setStep?.(e.scene.steps-1)}catch(e){console.error(e)}else if(!t.isIntersecting&&e.inst){try{e.inst.dispose()}catch(e){console.error(e)}e.inst=null}}}},{rootMargin:`300px 0px`});i.forEach((e,t)=>a.observe(t)),document.addEventListener(`visibilitychange`,()=>{i.forEach(e=>{document.hidden?e.inst?.pause?.():e.inst?.resume?.()})});let o=window.matchMedia(`(prefers-reduced-motion: reduce)`).matches?`auto`:`smooth`,s=e.querySelector(`.x-nav select`);s.addEventListener(`change`,()=>document.getElementById(s.value)?.scrollIntoView({behavior:o}));let c=n.map(e=>document.getElementById(e.id)).filter(Boolean),l=new IntersectionObserver(e=>{for(let t of e)t.isIntersecting&&(s.value=t.target.id)},{rootMargin:`-45% 0px -50% 0px`});c.forEach(e=>l.observe(e))}var dd=`2026-10-07 08:04`,fd=document.getElementById(`app`),pd=location.hash.replace(/^#\/?/,``);pd.startsWith(`present`)?od(fd,Uu,dd):pd.startsWith(`speaker`)?cd(fd,Uu,dd):ud(fd,Uu),window.addEventListener(`hashchange`,()=>{let e=location.hash.replace(/^#\/?/,``),t=e=>e.startsWith(`present`)?`p`:e.startsWith(`speaker`)?`s`:`e`;t(e)!==t(pd)&&location.reload()});
